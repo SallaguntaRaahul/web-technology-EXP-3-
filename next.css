@@ -10,6 +10,7 @@ body{
   display:flex;
   align-items:center;
   height:150px;
+  display: 100%;
 
 }
 .header_img {
@@ -92,6 +93,8 @@ body{
   padding-right: 10px;
   padding-bottom: 220px;
   box-sizing: border-box;
+  max-width: 100%;
+  min-width: 50%;
   overflow: hidden;
 }
 .rep{
@@ -101,7 +104,9 @@ body{
   width:500px ;
   height:220px;
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 30px;
+  min-width: 50%;
+  max-width: 100%;
 }
 .container4{
   background-color:	#f0f8ff;
@@ -166,8 +171,11 @@ body{
 }
 .container6{
 
-  display:inline;
-    background-color: 	#ffefd5;
+
+  background-color: 	#ffefd5;
+  background-image: url(kgp.jpg);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
 
 }
 
@@ -182,6 +190,7 @@ color: white;
 .team{
 display: flex;
 justify-content: center;
+padding-left: 100px;
 width: auto;
 text-align: center;
 flex-wrap: wrap;
